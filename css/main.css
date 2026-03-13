@@ -19,6 +19,8 @@ body {
   padding: 0 40px;
 }
 
+/* ========== HEADER ========== */
+
 .header {
   background: #ffffff;
   top: 0;
@@ -90,19 +92,78 @@ body {
   cursor: pointer;
 }
 
-.hero {}
-
-.hero__inner {
-  padding: 0;
+.iphone {
+  padding: 0 0 20px;
+}
+ 
+.iphone__inner {
+  position: relative;
+  background-color: #101010;
+  border-radius: 20px;
+  min-height: 190px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+}
+ 
+.iphone__inner__img {
+  position: absolute;
+  top: -40px;
+  right: 300px;
+  width: 380px;
+  height: 385px;
+  z-index: 1;
+}
+ 
+.iphone__inner__title {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 40px 50px 40px 350px;
 }
 
-.hero_img {
-  display: block;
-  width: 100%;
-  cursor: pointer;
+
+/* .iphone {
+  padding: 0 0 20px;
 }
 
-.cases {}
+.iphone__inner {
+  position: relative;
+  background-color: #101010;
+  background-image: url('../images/iPhone-13-Pro-Max-silver-1000x1000\ 1.png');
+  background-repeat: no-repeat;
+  background-position: calc(50% - -400px) calc(50% - 5px);
+  background-size: 320px 245px;
+  border-radius: 20px;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 20px;
+
+}
+
+
+.iphone__inner__title {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 60px 400px 60px 50px;
+} */
+
+/* ========== CASES ========== */
 
 .cases__inner {
   display: flex;
@@ -111,10 +172,6 @@ body {
   padding: 20px 0;
   margin-bottom: 8px;
 }
-
-.cases__inner-left {}
-
-.cases__inner-right {}
 
 .cases__title {
   font-size: 14px;
@@ -171,7 +228,7 @@ body {
   line-height: 1;
 }
 
-.earphones {}
+/* ========== EARPHONES ========== */
 
 .earphones__inner {
   display: flex;
@@ -180,10 +237,6 @@ body {
   padding: 20px 0;
   margin-bottom: 8px;
 }
-
-.earphones__inner-left {}
-
-.earphones__inner-right {}
 
 .earphones__title {
   font-size: 14px;
@@ -210,7 +263,7 @@ body {
   margin: 0;
 }
 
-.earphones__list__item-left {
+.earphones__list__item-top {
   position: relative;
   display: flex;
   justify-content: center;
@@ -220,7 +273,7 @@ body {
   padding: 0;
 }
 
-.earphones__list__item-right {
+.earphones__list__item-bottom {
   display: grid;
   grid-template-columns: 1fr auto;
   column-gap: 8px;
@@ -246,8 +299,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.earphones__list__item__btn--active {}
 
 .earphones__list__item__btn__icon {
   display: block;
@@ -346,7 +397,7 @@ body {
   padding: 0;
 }
 
-.wireless {}
+/* ========== WIRELESS ========== */
 
 .wireless__inner {
   display: flex;
@@ -355,10 +406,6 @@ body {
   padding: 20px 0;
   margin-bottom: 8px;
 }
-
-.wireless__inner-left {}
-
-.wireless__inner-right {}
 
 .wireless__title {
   font-size: 14px;
@@ -430,16 +477,6 @@ body {
   object-fit: contain;
 }
 
-.appleloggo {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 25px;
-  height: 31px;
-  object-fit: contain;
-}
-
 .wireless__list__item__image {
   display: block;
   width: 220px;
@@ -486,14 +523,14 @@ body {
   align-self: center;
 }
 
-.footer {}
+/* ========== FOOTER ========== */
 
 .footer__inner {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 40px;
-  padding: 32px ;
+  padding: 32px;
   background: #ffffff;
   border-radius: 20px 20px 0 0;
 }
