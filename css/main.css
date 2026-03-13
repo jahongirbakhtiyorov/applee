@@ -19,7 +19,6 @@ body {
   padding: 0 40px;
 }
 
-/* ========== HEADER ========== */
 
 .header {
   background: #ffffff;
@@ -125,45 +124,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0;
   margin: 0;
-  padding: 40px 50px 40px 350px;
+  padding: 40px 50px 40px 320px;
 }
 
 
-/* .iphone {
-  padding: 0 0 20px;
-}
 
-.iphone__inner {
-  position: relative;
-  background-color: #101010;
-  background-image: url('../images/iPhone-13-Pro-Max-silver-1000x1000\ 1.png');
-  background-repeat: no-repeat;
-  background-position: calc(50% - -400px) calc(50% - 5px);
-  background-size: 320px 245px;
-  border-radius: 20px;
-  min-height: 160px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  z-index: 0;
-  border-radius: 20px;
-
-}
-
-
-.iphone__inner__title {
-  position: relative;
-  z-index: 2;
-  font-size: 30px;
-  font-weight: 600;
-  color: #ffffff;
-  line-height: 1;
-  letter-spacing: 0;
-  margin: 0;
-  padding: 60px 400px 60px 50px;
-} */
-
-/* ========== CASES ========== */
 
 .cases__inner {
   display: flex;
@@ -228,31 +193,36 @@ body {
   line-height: 1;
 }
 
-/* ========== EARPHONES ========== */
 
-.earphones__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.earphones {
   padding: 20px 0;
-  margin-bottom: 8px;
 }
-
+ 
 .earphones__title {
   font-size: 14px;
   font-weight: 500;
   color: #1c1c27;
+  margin-bottom: 16px;
 }
-
+ 
+.earphones__inner-top,
+.earphones__inner-bottom {
+  width: 100%;
+}
+ 
+.earphones__inner-top {
+  margin-bottom: 16px;
+}
+ 
 .earphones__list {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px 16px;
+  gap: 16px;
   margin: 0;
   padding: 0;
 }
-
+ 
 .earphones__list__item {
   background: #ffffff;
   border-radius: 20px;
@@ -262,7 +232,7 @@ body {
   height: 380px;
   margin: 0;
 }
-
+ 
 .earphones__list__item-top {
   position: relative;
   display: flex;
@@ -272,18 +242,18 @@ body {
   margin: 0;
   padding: 0;
 }
-
+ 
 .earphones__list__item-bottom {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr auto auto;
   column-gap: 8px;
   row-gap: 4px;
-  align-items: start;
+  align-items: center;
   flex-shrink: 0;
   margin: 0;
   padding: 0;
 }
-
+ 
 .earphones__list__item__btn {
   background: none;
   border: none;
@@ -299,21 +269,21 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+ 
 .earphones__list__item__btn__icon {
   display: block;
   width: 20px;
   height: 18px;
   object-fit: contain;
 }
-
+ 
 .earphones__list__item__image {
   display: block;
   width: 220px;
   height: 220px;
   object-fit: contain;
 }
-
+ 
 .earphones__list__item__span-name {
   font-size: 17px;
   font-weight: 600;
@@ -321,9 +291,8 @@ body {
   line-height: 1;
   grid-column: 1;
   grid-row: 1;
-  align-self: center;
 }
-
+ 
 .earphones__list__item__span-price {
   font-size: 17px;
   font-weight: 600;
@@ -333,7 +302,7 @@ body {
   white-space: nowrap;
   text-align: right;
 }
-
+ 
 .earphones__list__item__span-price--old {
   font-size: 13px;
   font-weight: 600;
@@ -344,7 +313,7 @@ body {
   text-align: right;
   white-space: nowrap;
 }
-
+ 
 .earphones__list__item__span-price--new {
   font-size: 17px;
   font-weight: 600;
@@ -354,7 +323,7 @@ body {
   text-align: right;
   white-space: nowrap;
 }
-
+ 
 .earphones__list__item__span-badge {
   font-size: 13px;
   font-weight: 600;
@@ -362,10 +331,9 @@ body {
   grid-column: 3;
   grid-row: 1;
   white-space: nowrap;
-  padding-left: 6px;
   align-self: center;
 }
-
+ 
 .earphones__list__item__span-rating {
   display: inline-flex;
   align-items: center;
@@ -376,14 +344,14 @@ body {
   grid-column: 1;
   grid-row: 2;
 }
-
+ 
 .earphones__list__item__span-rating__star {
   display: inline-block;
   width: 23px;
   height: 22px;
   object-fit: contain;
 }
-
+ 
 .disc {
   font-size: 13px;
   font-weight: 600;
@@ -397,7 +365,6 @@ body {
   padding: 0;
 }
 
-/* ========== WIRELESS ========== */
 
 .wireless__inner {
   display: flex;
@@ -523,7 +490,6 @@ body {
   align-self: center;
 }
 
-/* ========== FOOTER ========== */
 
 .footer__inner {
   display: flex;
