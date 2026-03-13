@@ -94,7 +94,7 @@ body {
 .iphone {
   padding: 0 0 20px;
 }
- 
+
 .iphone__inner {
   position: relative;
   background-color: #101010;
@@ -105,7 +105,7 @@ body {
   overflow: hidden;
   z-index: 0;
 }
- 
+
 .iphone__inner__img {
   position: absolute;
   top: -40px;
@@ -114,7 +114,7 @@ body {
   height: 385px;
   z-index: 1;
 }
- 
+
 .iphone__inner__title {
   position: relative;
   z-index: 2;
@@ -197,23 +197,23 @@ body {
 .earphones {
   padding: 20px 0;
 }
- 
+
 .earphones__title {
   font-size: 14px;
   font-weight: 500;
   color: #1c1c27;
   margin-bottom: 16px;
 }
- 
+
 .earphones__inner-top,
 .earphones__inner-bottom {
   width: 100%;
 }
- 
+
 .earphones__inner-top {
   margin-bottom: 16px;
 }
- 
+
 .earphones__list {
   list-style: none;
   display: grid;
@@ -222,7 +222,7 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+
 .earphones__list__item {
   background: #ffffff;
   border-radius: 20px;
@@ -232,7 +232,7 @@ body {
   height: 380px;
   margin: 0;
 }
- 
+
 .earphones__list__item-top {
   position: relative;
   display: flex;
@@ -242,7 +242,9 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+
+
+
 .earphones__list__item-bottom {
   display: grid;
   grid-template-columns: 1fr auto auto;
@@ -253,7 +255,7 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+
 .earphones__list__item__btn {
   background: none;
   border: none;
@@ -269,21 +271,21 @@ body {
   align-items: center;
   justify-content: center;
 }
- 
+
 .earphones__list__item__btn__icon {
   display: block;
   width: 20px;
   height: 18px;
   object-fit: contain;
 }
- 
+
 .earphones__list__item__image {
   display: block;
   width: 220px;
   height: 220px;
   object-fit: contain;
 }
- 
+
 .earphones__list__item__span-name {
   font-size: 17px;
   font-weight: 600;
@@ -292,7 +294,7 @@ body {
   grid-column: 1;
   grid-row: 1;
 }
- 
+
 .earphones__list__item__span-price {
   font-size: 17px;
   font-weight: 600;
@@ -302,7 +304,7 @@ body {
   white-space: nowrap;
   text-align: right;
 }
- 
+
 .earphones__list__item__span-price--old {
   font-size: 13px;
   font-weight: 600;
@@ -313,7 +315,7 @@ body {
   text-align: right;
   white-space: nowrap;
 }
- 
+
 .earphones__list__item__span-price--new {
   font-size: 17px;
   font-weight: 600;
@@ -323,7 +325,7 @@ body {
   text-align: right;
   white-space: nowrap;
 }
- 
+
 .earphones__list__item__span-badge {
   font-size: 13px;
   font-weight: 600;
@@ -333,7 +335,7 @@ body {
   white-space: nowrap;
   align-self: center;
 }
- 
+
 .earphones__list__item__span-rating {
   display: inline-flex;
   align-items: center;
@@ -344,14 +346,14 @@ body {
   grid-column: 1;
   grid-row: 2;
 }
- 
+
 .earphones__list__item__span-rating__star {
   display: inline-block;
   width: 23px;
   height: 22px;
   object-fit: contain;
 }
- 
+
 .disc {
   font-size: 13px;
   font-weight: 600;
